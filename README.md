@@ -1,7 +1,8 @@
 # Wonder Game (assembly)
 
 By Anastasiia Rudenko 
-<p>*03/2022*
+
+Date: *03/2022*
 
 __Language__: MIPS Assembly
 
@@ -50,7 +51,7 @@ If the player died, they see "**GAME OVER**" message.
 
 If the player wins, they see "**CONGRATS!**" message.
 
-![GAME OVER](gameover.png)			![GAME OVER](congratulations.png)
+![GAME OVER](pictures/gameover.png)			![GAME OVER](pictures/congratulations.png)
 
 ### Camera 
 

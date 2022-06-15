@@ -57,6 +57,8 @@ If the player wins, they see "**CONGRATS!**" message.
 
 The **camera** follows the player around, keeping them **in the middle of the screen**. But, if the player moves towards the edges of the playfield, the visible rectangle stays **within the boundaries of the playfield**, while the player can still move towards the boundaries.
 
+![field](pictures/camerafollow.png)        ![bourder](pictures/cameraboundary.png)
+
 ### Movements
 
 We can move our player as follows:
@@ -77,7 +79,7 @@ At the beginning of the game, the player is trapped in this starting room. The d
 
 But it can be removed/unlocked with a **key**. A key object could be found in the top left corner of the room. To collect it, the player should step on it.
 
-![key](pictures/)
+![key](pictures/key.png)
 
 __Unlocking the door__
 
@@ -87,7 +89,7 @@ To escape the room, it is needed to be able to unlock the door. Once the player 
 
 The user **slash a sword** when they press `Z`. It appears in front of the player, in the direction they're facing. The sword can **destroy bushes** (by turning them into grass) and **destroy blob enemies** (by making them disappear).
 
-![sword](pictures/)
+![sword](pictures/sword.png)
 
 *Note:* while the sword is out, the player cannot perform any other actions - no movement, no keys, no bombs.
 
@@ -104,7 +106,7 @@ The user **slash a sword** when they press `Z`. It appears in front of the playe
     * It **creates five “explosion” objects** on those tiles, which are just a visual effect of the bomb explosion.
 
 Bomb explosion:
-![bomb](pictures/)
+![bomb](pictures/explosions.png)
 
 It is okay to place bombs on top of walls, rocks, etc. That’s a *feature*, not a bug :)
 
@@ -112,7 +114,7 @@ It is okay to place bombs on top of walls, rocks, etc. That’s a *feature*, not
 
 So-called "Blobjects". They are the random-moving enemies. There are blobs in the bottom-left and bottom-right corners of the map, “guarding” the keys there. 
 
-![blobs](pictures/)
+![blobs](pictures/blobjects.png)
 
 Blobs can **hurt a player**. If a player collides with a blob, the character loses one life.
 
@@ -144,7 +146,7 @@ Once the player is no longer invincible, they stop blinking.
 
 The **goal** of the game is to collect the **treasure**. It’s a shiny yellow triangle. Touching the treasure ends the game and congratulates the player. On the game map, it’s located in the top right corner, behind two locked doors.
 
-![treasure](pictures/)
+![treasure](pictures/treasure.png)
 
 
 ## How the game works (implementation)
@@ -155,7 +157,7 @@ The game world is a big 2D grid of tiles. Like a checkerboard or chessboard. Eac
 
 The world is created too big to show all at once on-screen. So, we only show a small portion of it.
 
-*/picture/*
+![gameworld](pictures/gameworld.png)
 
 The constants in the diagram above (`SCREEN_TILE_W` etc.) are defined in `game_constants.asm`. These define the dimensions of the world as a whole, and the small rectangle of the world that we show on the display.
 

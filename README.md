@@ -32,6 +32,8 @@ The **goal** of the game is to find and collect a **treasure**.
 
 ### The HUD
 
+![HUD](pictures/HUD.png)
+
 On top of the game field, you see the **HUD**, which shows some important information about the game:
 
   * The hearts ❤️❤️❤️ show how many times the **player can be hurt**.
@@ -43,13 +45,13 @@ On top of the game field, you see the **HUD**, which shows some important inform
   * To the right of the key icon is a number showing **how many keys** the player has.
     * This corresponds to the `player_keys` variable.
 
-*/picture/*
-
 ### End of the game
 
-If the player died, they see "**GAME OVER**" message. | If the player wins, they see "**CONGRATS!**" message.
+If the player died, they see "**GAME OVER**" message.
 
-![GAME OVER](pictures/gameover.png) | ![GAME OVER](pictures/congratulations.png)
+If the player wins, they see "**CONGRATS!**" message.
+
+![GAME OVER](pictures/gameover.png)        ![CONGRATS](pictures/congratulations.png)
 
 ### Camera 
 
@@ -69,21 +71,23 @@ With a slight tap, the player will **turn to face the direction** we press. With
 
 The player cannot move through solid **objects**: bricks, rocks, bushes.
 
-At the beginning of the game, the player is trapped in this starting room. The dark gray thing on the right side is a **locked door**. It’s solid, so the player can’t move through it. But it can be removed/unlocked with a **key**. A key object could be found in the top left corner of the room. To collect it, the player should step on it.
+At the beginning of the game, the player is trapped in this starting room. The dark gray thing on the right side is a **locked door**. It’s solid, so the player can’t move through it. 
 
-*/picture/*
+![locked-door](pictures/locked_door.png)
+
+But it can be removed/unlocked with a **key**. A key object could be found in the top left corner of the room. To collect it, the player should step on it.
+
+![key](pictures/)
 
 __Unlocking the door__
 
 To escape the room, it is needed to be able to unlock the door. Once the player has a key, they should be able to **walk up to the door, face it, and press** `C`; this will **use a key** and **change the door into a grass**.
 
-*/picture/*
-
 ### The sword
 
 The user **slash a sword** when they press `Z`. It appears in front of the player, in the direction they're facing. The sword can **destroy bushes** (by turning them into grass) and **destroy blob enemies** (by making them disappear).
 
-*/picture/*
+![sword](pictures/)
 
 *Note:* while the sword is out, the player cannot perform any other actions - no movement, no keys, no bombs.
 
@@ -100,7 +104,7 @@ The user **slash a sword** when they press `Z`. It appears in front of the playe
     * It **creates five “explosion” objects** on those tiles, which are just a visual effect of the bomb explosion.
 
 Bomb explosion:
-*/picture/*
+![bomb](pictures/)
 
 It is okay to place bombs on top of walls, rocks, etc. That’s a *feature*, not a bug :)
 
@@ -108,7 +112,7 @@ It is okay to place bombs on top of walls, rocks, etc. That’s a *feature*, not
 
 So-called "Blobjects". They are the random-moving enemies. There are blobs in the bottom-left and bottom-right corners of the map, “guarding” the keys there. 
 
-*/picture/*
+![blobs](pictures/)
 
 Blobs can **hurt a player**. If a player collides with a blob, the character loses one life.
 
@@ -140,7 +144,7 @@ Once the player is no longer invincible, they stop blinking.
 
 The **goal** of the game is to collect the **treasure**. It’s a shiny yellow triangle. Touching the treasure ends the game and congratulates the player. On the game map, it’s located in the top right corner, behind two locked doors.
 
-*/picture/*
+![treasure](pictures/)
 
 
 ## How the game works (implementation)

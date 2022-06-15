@@ -105,7 +105,6 @@ The user **slash a sword** when they press `Z`. It appears in front of the playe
     * It **frees itself and disappears**.
     * It **creates five “explosion” objects** on those tiles, which are just a visual effect of the bomb explosion.
 
-Bomb explosion:
 ![bomb](pictures/explosions.png)
 
 It is okay to place bombs on top of walls, rocks, etc. That’s a *feature*, not a bug :)

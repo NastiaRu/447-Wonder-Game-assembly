@@ -2,7 +2,7 @@
 
 By Anastasiia Rudenko 
 
-Date: *03/2022*
+*Date: 03/2022*
 
 __Language__: MIPS Assembly
 
@@ -47,11 +47,9 @@ On top of the game field, you see the **HUD**, which shows some important inform
 
 ### End of the game
 
-If the player died, they see "**GAME OVER**" message.
+If the player died, they see "**GAME OVER**" message. | If the player wins, they see "**CONGRATS!**" message.
 
-If the player wins, they see "**CONGRATS!**" message.
-
-![GAME OVER](pictures/gameover.png)			![GAME OVER](pictures/congratulations.png)
+![GAME OVER](pictures/gameover.png) | ![GAME OVER](pictures/congratulations.png)
 
 ### Camera 
 

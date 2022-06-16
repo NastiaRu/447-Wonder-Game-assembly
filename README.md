@@ -6,7 +6,7 @@ By Anastasiia Rudenko
 
 __Language__: MIPS Assembly
 
--->> [__TRAILER__](https://youtu.be/KeHZhhmFp7A) <<--
+__-->> [__TRAILER__](https://youtu.be/KeHZhhmFp7A) <<--__
 
 ## Description
 
@@ -151,6 +151,8 @@ The **goal** of the game is to collect the **treasure**. It’s a shiny yellow t
 
 
 ## How the game works (implementation)
+
+A quick [reference](https://github.com/NastiaRu/447-Wonder-Game-assembly/blob/main/files/README.md) guide to things used in `map.asm`, `obj.asm`, and `macros.asm`.
 
 ### Game world
 

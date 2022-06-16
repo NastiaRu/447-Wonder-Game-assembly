@@ -6,6 +6,8 @@ By Anastasiia Rudenko
 
 __Language__: MIPS Assembly
 
+![__TRAILER__](https://youtu.be/KeHZhhmFp7A)
+
 ## Description
 
 It's a __Wonder Game__ where a player can:
@@ -220,6 +222,6 @@ The player's invincibility is controlled by the `player_iframes` variable.
 
 It was a big pleasure working on this project! :D
 
-I want to thank my CS instructor a lot for teaching me how to code using assembly language and for evoking an interest to experiment with it!
+I want to thank a lot Jarrett Billingsley, my CS instructor, for teaching me how to code using assembly language and for evoking an interest to experiment with it!
 
 To compile and run this game is possible in MARS: Mips Assembler and Runtime Simulator. It could be launched from `Mars_2211_0822.jar` file.

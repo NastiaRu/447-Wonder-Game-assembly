@@ -6,7 +6,7 @@ By Anastasiia Rudenko
 
 __Language__: MIPS Assembly
 
-![__TRAILER__](https://youtu.be/KeHZhhmFp7A)
+-->> [__TRAILER__](https://youtu.be/KeHZhhmFp7A) <<--
 
 ## Description
 
